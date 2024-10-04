@@ -1,11 +1,9 @@
 let input = [1, 4, 5, 6, 10];
-function maxNumber(arr) {
-  let max = -Infinity;
+function sumNumber(arr) {
+  let sum = 0;
   for (let i = 0; i < arr.length; i++){
-    if (arr[i] > max) {
-      max=arr[i]
-    }
+    sum=sum+arr[i]
   }
-  console.log(max)
+  console.log(sum)
 }
-maxNumber(input)
+sumNumber(input)
